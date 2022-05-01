@@ -1,0 +1,16 @@
+{
+  "imports": ["../../one/build.irk"],
+  "modules":[
+    {
+      "id": "tetris/core",
+      "name": "Tetris",
+      "sources": ["src/core"],
+      "links": ["profanity/core", "exoskeleton/core"],
+      "artifact": {
+        "path": "tetris",
+	"main": "tetris.Main",
+	"type": "app"
+      }
+    }
+  ]
+}
